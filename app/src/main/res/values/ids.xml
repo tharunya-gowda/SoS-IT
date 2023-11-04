@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="test" type="id" />
+    <item name="guideline16" type="id" />
+    <item name="guideline17" type="id" />
+    <item name="guideline18" type="id" />
+    <item name="restaurant" type="id" />
+    <item name="textView2" type="id" />
+    <item name="lottieAnimationView2" type="id" />
+    <item name="pickup" type="id" />
+    <item name="textView6" type="id" />
+    <item name="lottieAnimationView4" type="id" />
+    <item name="groceries" type="id" />
+    <item name="textView5" type="id" />
+    <item name="lottieAnimationView3" type="id" />
+    <item name="pharma" type="id" />
+    <item name="textView7" type="id" />
+    <item name="lottieAnimationView5" type="id" />
+    <item name="petsupplies" type="id" />
+    <item name="textView8" type="id" />
+    <item name="lottieAnimationView6" type="id" />
+    <item name="services" type="id" />
+    <item name="textView9" type="id" />
+    <item name="lottieAnimationView7" type="id" />
+    <item name="editTextTextPersonName5" type="id" />
+    <item name="guideline7" type="id" />
+    <item name="guideline15" type="id" />
+    <item name="guideline19" type="id" />
+    <item name="circularImageView6" type="id" />
+    <item name="circularImageView5" type="id" />
+    <item name="circularImageView8" type="id" />
+    <item name="circularImageView7" type="id" />
+    <item name="textView14" type="id" />
+    <item name="textView13" type="id" />
+    <item name="textView16" type="id" />
+    <item name="textView15" type="id" />
+    <item name="editTextTextPersonName4" type="id" />
+    <item name="circularImageView2" type="id" />
+    <item name="circularImageView4" type="id" />
+    <item name="circularImageView3" type="id" />
+    <item name="circularImageView" type="id" />
+    <item name="textView10" type="id" />
+    <item name="textView" type="id" />
+    <item name="textView12" type="id" />
+    <item name="textView11" type="id" />
+</resources>

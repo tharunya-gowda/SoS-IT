@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "572176616272",
+    "project_id": "cogent-sign-314404",
+    "storage_bucket": "cogent-sign-314404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572176616272:android:e632a677a118b465e27a55",
+        "android_client_info": {
+          "package_name": "com.example.sos_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572176616272-evfntqo0hhep68ngnk06i4fcfdeajgu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sos_it",
+            "certificate_hash": "4b667af706c6c7e72ba72c7b1e49fcf897bea4b8"
+          }
+        },
+        {
+          "client_id": "572176616272-eh67ubuo5rpsts856t6nth30e2uvt8a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNJBzhc5EA1nJYTgAIMRWtaOh6dHDhbsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572176616272-eh67ubuo5rpsts856t6nth30e2uvt8a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

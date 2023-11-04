@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    tools:context=".karma.activities.Pharma">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/skin"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/healthcare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/digestives" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/skin_and_foot_care"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/skincare" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/painrelief"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/digestives"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coldrelief" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/pain_relief"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/pills" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/joint"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthcare" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/joint_care"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/pain" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/prescribed"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/firstaid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/prescribed_medicines"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/medicine" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstaid"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/coldrelief"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prescribed" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/first_aid"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/firstaid" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/coldrelief"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/painrelief"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstaid" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/cold_relief"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/cough" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/digestives"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/skin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painrelief" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/digestives_and_laxatives"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/stomach" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/healthcare"
+        android:layout_width="350dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/joint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skin" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/healthcare_devices"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="RtlCompat"
+            android:padding="10dp"
+            app:drawableEndCompat="@drawable/thermometer" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
